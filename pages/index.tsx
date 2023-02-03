@@ -23,11 +23,11 @@ export default function Home({files}: { files: Array<File> }) {
         <h2>W3C客户端中国加速下载地址</h2>
         <ul>
           {files.map(f => {
-            return <li key={f.url.replace('http://w3champions.oss-cn-shanghai.aliyuncs.com/', 'http://w3c.cnwar3.com/')}>
+            return <li key={f.url}>
               <dl>
                 <dt>文件</dt>
                 <dd>
-                  <a href={f.url}>{f.name}</a>
+                  <a href={f.url.replace('http://w3champions.oss-cn-shanghai.aliyuncs.com/', 'http://w3c.cnwar3.com/')}>{f.name}</a>
                 </dd>
                 <dt>修改日期</dt>
                 <dd>{new Date(f.lastModified).toDateString()}</dd>
