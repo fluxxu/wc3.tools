@@ -35,6 +35,7 @@ export default function Home({files}: { files: Array<File> }) {
             </li>
           })}
         </ul>
+        <h2><a href="/launcher-e">实验版新客户端</a></h2>
       </main>
     </div>
   )

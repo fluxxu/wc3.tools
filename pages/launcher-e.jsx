@@ -11,7 +11,7 @@ export default function LauncherE() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>
-                    W3C 新客户端下载
+                    W3C 实验版新客户端下载
                 </h1>
 
                 <div className={styles.grid}>
