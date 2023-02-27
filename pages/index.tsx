@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { store } from '../services/oss'
+import Link from 'next/link'
 
 interface File {
   name: string
@@ -35,7 +36,7 @@ export default function Home({files}: { files: Array<File> }) {
             </li>
           })}
         </ul>
-        <h2><a href="/launcher-e">实验版新客户端</a></h2>
+        <h2><Link href="/launcher-e">实验版新客户端</Link></h2>
       </main>
     </div>
   )
