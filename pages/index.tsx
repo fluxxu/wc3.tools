@@ -24,6 +24,7 @@ export default function Home({files}: { files: Array<File> }) {
         <h2>W3C客户端中国加速下载地址</h2>
         <ul>
           {files.map(f => {
+            if (f.name.endsWith('.exe')) return null;
             return <li key={f.url}>
               <dl>
                 <dt>文件</dt>

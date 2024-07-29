@@ -51,7 +51,7 @@ export default function LauncherE() {
                     </div>
 
                     <p className={styles.description}>
-                        <a href="http://w3c.cnwar3.com/launcher-e/W3Champions_0.0.2_x64_en-US.msi">下载0.0.2 预览版</a>
+                        <a href="http://w3c.cnwar3.com/launcher-e/W3Champions_1.4.12_x64_en-US.msi">下载1.4.12 预览版</a>
                     </p>
                 </div>
             </main>
